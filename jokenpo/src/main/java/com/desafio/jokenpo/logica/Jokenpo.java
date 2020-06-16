@@ -158,31 +158,6 @@ public class Jokenpo {
 		}
 		
 		return null;
-	}
-	
- public static void  main(String [] args) {
-		
-		Jokenpo jokenpo = new Jokenpo();
-		Jogador jogador1 = new Jogador();
-		jogador1.setNome("Jogador1");
-		jogador1.setJogada("pedra");
-		Jogador jogador2 = new Jogador();
-		jogador2.setNome("Jogador2");
-		jogador2.setJogada("tesoura");
-		Jogador jogador3 = new Jogador();
-		jogador3.setNome("Jogador3");
-		jogador3.setJogada("papel");
-		Jogador jogador4 = new Jogador();
-		jogador4.setNome("Jogador4");
-		jogador4.setJogada("spock");
-		Jogador jogador5 = new Jogador();
-		jogador5.setNome("Jogador5");
-		jogador5.setJogada("lagarto");
-		
-		Jogador jogador = jokenpo.buscaJogador("Jogador3");
-		System.out.println(jogador.getJogada());
-		
-		
 	}		
 
 }
